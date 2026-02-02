@@ -13,6 +13,14 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 # CORS settings
 
+CORS_ALLOWED_ORIGINS = [
+   "http://localhost:3000",
+   "http://localhost:5173",
+   "https://ena-spotter-frontend.onrender.com",
+]
+
+
+
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
