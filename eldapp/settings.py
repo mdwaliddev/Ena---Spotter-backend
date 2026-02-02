@@ -14,11 +14,8 @@ ALLOWED_HOSTS = ['*']
 # CORS settings
 
 CORS_ALLOWED_ORIGINS = [
-   "http://localhost:3000",
-   "http://localhost:5173",
+   "http://localhost",
    "https://ena-spotter-frontend.onrender.com",
-   "https://ena-spotter-frontend.onrender.com/marker-icon.png ",
-   "https://ena-spotter-frontend.onrender.com/marker-shadow.png ",
 ]
 
 
